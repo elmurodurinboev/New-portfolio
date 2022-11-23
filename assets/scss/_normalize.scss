@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Heebo', sans-serif;
+  color: #21243D;
 }
 
 a{
   text-decoration: none;
   color: inherit;
+  color: #000;
 }
 
 ul,

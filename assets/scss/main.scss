@@ -1,5 +1,5 @@
-@import './mixins', './normalize', './variables';
-
+@import './mixins', './variables';
+@import './normalize';
 .wrapper{
   width: 100%;
   min-height: 100vh;
@@ -7,6 +7,23 @@
   flex-direction: column;
 }
 
-.block{
-  @include flex(center, space-between);
+
+.header{
+
+  .site-nav{
+    width: 100%;
+
+    .site-nav-navlist{
+      @include flex( center , flex-end);
+      @include font(20px , 29px , 500);
+      padding:30px 60px;
+
+      .site-nav__list-item:not(:last-child){
+        margin-right: 33px;
+      }
+
+    }
+
+  }
+
 }
