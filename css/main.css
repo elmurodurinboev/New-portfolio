@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+.container {
+  width: 858px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,6 +37,7 @@ button {
 
 .header .site-nav {
   width: 100%;
+  margin-bottom: 110px;
 }
 .header .site-nav .site-nav-navlist {
   display: flex;
@@ -44,4 +50,24 @@ button {
 }
 .header .site-nav .site-nav-navlist .site-nav__list-item:not(:last-child) {
   margin-right: 33px;
+}
+.header .header-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-des .header-des__left {
+  width: 58%;
+}
+.header .header-des .header-des__left h1 {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.header .header-des .header-des__left .header-des__left-text {
+  font-size: 16px;
+  line-height: 23.5px;
+  font-weight: 400;
+  margin-bottom: 38px;
 }/*# sourceMappingURL=main.css.map */

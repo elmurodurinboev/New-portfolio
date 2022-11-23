@@ -7,11 +7,12 @@
   flex-direction: column;
 }
 
-
+// Start HEADER
 .header{
 
   .site-nav{
     width: 100%;
+    margin-bottom: 110px;
 
     .site-nav-navlist{
       @include flex( center , flex-end);
@@ -24,6 +25,30 @@
 
     }
 
+  }
+
+  .header-des{
+    @include flex(center , space-between);
+
+    .header-des__left{
+      width: 58%;
+
+      // !!!!!need support
+      h1{
+        @include font(44px , 60px , 700);
+        margin-bottom: 40px;
+      }
+
+      .header-des__left-text {
+        @include font(16px , 23.5px , 400);
+        margin-bottom: 38px;
+      }
+
+      .header-des__left-button{
+        
+      }
+
+    }
   }
 
 }
