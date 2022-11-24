@@ -7,10 +7,16 @@
   color: #21243D;
 }
 
+.container {
+  width: 100%;
+  max-width: 898px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 a{
   text-decoration: none;
   color: inherit;
-  color: #000;
 }
 
 ul,
@@ -21,5 +27,6 @@ li{
 
 button{
   cursor: pointer;
+  border: none;
 }
 
