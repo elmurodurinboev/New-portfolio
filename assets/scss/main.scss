@@ -28,7 +28,7 @@
 
   }
 
-  &-des{
+  &-des {
     @include flex(flex-start , space-between);
     &__left{
       width: 56%;
@@ -38,7 +38,7 @@
         @include font( 60px , 700);
         @include adaptive-value('font-size', 44, 32);
         margin-bottom: 40px;
-        width: 89%
+        width: 100%
       }
 
       &-text {
