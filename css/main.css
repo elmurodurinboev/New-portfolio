@@ -78,11 +78,11 @@ button {
   line-height: 29.38px;
   font-weight: 500;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header .site-nav-navlist {
     font-size: calc(
                 16px + 4 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -122,11 +122,11 @@ button {
   margin-bottom: 40px;
   width: 100%;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-des__left-title {
     font-size: calc(
                 32px + 12 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -136,11 +136,11 @@ button {
   font-size: 16px;
   margin-bottom: 38px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-des__left-text {
     font-size: calc(
                 16px + 0 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -153,11 +153,11 @@ button {
   color: #fff;
   border-radius: 2px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-des__left-button {
     font-size: calc(
                 20px + 0 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -219,11 +219,11 @@ button {
   font-weight: 400;
   font-size: 22px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__title-recent {
     font-size: calc(
                 18px + 4 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -233,11 +233,11 @@ button {
   font-size: 16px;
   color: #00A8CC;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__title-link {
     font-size: calc(
                 14px + 2 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -273,11 +273,11 @@ button {
   font-size: 24px;
   margin-bottom: 17px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__card-item__title {
     font-size: calc(
                 22px + 2 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -288,11 +288,11 @@ button {
   padding-right: 30px;
   border-right: 1px solid #000000;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__card-item__date {
     font-size: calc(
                 16px + 2 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -302,11 +302,11 @@ button {
   font-size: 18px;
   margin-left: 26px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__card-item__design {
     font-size: calc(
                 16px + 2 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -316,11 +316,11 @@ button {
   font-size: 16px;
   margin-top: 15px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .header-banner__card-item__text {
     font-size: calc(
                 16px + 0 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -338,11 +338,11 @@ button {
   font-weight: 400;
   font-size: 22px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .main .works-title {
     font-size: calc(
                 18px + 4 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -399,11 +399,11 @@ button {
   padding: 0;
   margin-bottom: 8px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .main .works-item__des-title {
     font-size: calc(
                 24px + 6 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -430,11 +430,11 @@ button {
   font-size: 18px;
   margin-right: 25px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .main .works-item__des-year-date {
     font-size: calc(
                 16px + 2 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -444,11 +444,11 @@ button {
   font-weight: 400;
   font-size: 20px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .main .works-item__des-year-major {
     font-size: calc(
                 16px + 4 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -489,11 +489,11 @@ button {
   font-size: 44px;
   margin-bottom: 50px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .blog-title {
     font-size: calc(
                 30px + 14 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
@@ -517,14 +517,18 @@ button {
   font-weight: 500;
   font-size: 30px;
 }
-@media (max-width: 1200pxpx) {
+@media (max-width: 1200px) {
   .blog-card__item-title {
     font-size: calc(
                 26px + 4 *
-                    ((100vw - 320px) / 880px)
+                    ((100vw - 320px) / 880)
             );
   }
 }
 .blog-card__item-express {
   color: #8695A4;
+}
+
+.works-item-last-child {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
