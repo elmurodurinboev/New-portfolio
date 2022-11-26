@@ -6,7 +6,7 @@
 
 @mixin font($line , $wheight)
  {
-   font-size: $size;
+//    font-size: $size;
    line-height: $line;
    font-weight: $wheight;  
 }
@@ -27,7 +27,7 @@
 }
 
 
-$maxWidth: 898px;
+$maxWidth: 858px;
 $maxWidthContainer: 1200px;
 @mixin adaptive-value($property, $startSize, $minSize) {
     $addSize: $startSize - $minSize;

@@ -1,4 +1,6 @@
-@import './mixins', './normalize', './variables';
+@import './mixins';
+@import './normalize';
+@import './variables';
 
 .wrapper{
   width: 100%;
@@ -14,13 +16,17 @@
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 110px;
+    @media (max-width:650px) {
+      margin-bottom: 50px;
+    }
 
     &-navlist{
       @include flex( center , flex-end);
       @include adaptive-value('font-size', 20, 16);
       margin-top: 30px;
+      @include font(29.38px , 500);
     
-      &:not(:last-child){
+      &-item:not(:last-child){
         margin-right: 30px;
       }
 
@@ -30,9 +36,18 @@
 
   &-des {
     @include flex(flex-start , space-between);
+
+    @media (max-width:650px) {
+      @include direction(column-reverse);
+    }
+
     &__left{
       width: 56%;
       padding-top: 20px;
+      @media (max-width:650px) {
+        width: 100%;
+        text-align: center;
+      }
 
       &-title{
         @include font( 60px , 700);
@@ -58,12 +73,19 @@
 
     }
     &__right{
-      width: 35%;
+      width: 33%;
       margin: 0;
       position: relative;
-      flex: 1;
-      margin-right: 30px;
-      padding-right: 20px;
+
+      @media (max-width:800px){
+        width: 35%;
+        margin-right: 20px;
+      }
+
+      @media (max-width:650px) {
+        width: fit-content;
+        margin: 0 auto;
+      }
 
 
       &-item {
@@ -112,19 +134,28 @@
 
       &-link{
         @include font(24px , 400);
-        @include adaptive-value('font-size', 216, 14);
+        @include adaptive-value('font-size', 16, 14);
         color: #00A8CC;
       }
     }
 
     &__card{
       @include flex(center , space-between);
+      @media (max-width:700px) {
+        @include direction(column);
+      }
       &-item {
         width: 48%;
         padding: 24px;
         background: #FFFFFF;
         box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
         border-radius: 4px;
+        @media (max-width:700px) {
+          width: 100%;
+          &:not(:last-child){
+            margin-bottom: 20px;
+          }
+        }
 
         &__title{
           @include font( 38px , 700);
@@ -156,6 +187,8 @@
 
 }
 
+//Start MAIN 
+
 .main{
   width: 100%;
   .works{
@@ -178,6 +211,10 @@
         margin-bottom: 15px;
       }
 
+      @media (max-width:750px) {
+        @include direction(column);
+      }
+
       &__img{
         padding: 0;
         margin-top: 10px;
@@ -185,6 +222,11 @@
         height: 180px;
         border-radius: 6px;
         @include flex (center , unset);
+
+        @media (max-width:750px) {
+          width: 100%;
+          height: max-content;
+        }
 
         &-element{
           width: 100%;
@@ -201,10 +243,17 @@
           @include adaptive-value('font-size', 30, 24);
           padding: 0;
           margin-bottom: 8px;
+          @media (max-width:750px) {
+          margin-bottom: 0;
+          }
         }
 
         &-year{
           margin-bottom: 10px;
+
+          @media (max-width:750px) {
+            margin-bottom: 0;
+            }
 
           &-date{
             padding: 0px 10px;
@@ -226,6 +275,7 @@
         &-text {
           @include font(24px , 400);
           font-size: 16px;
+
         }
 
       }
@@ -235,12 +285,3 @@
   }
 
 }
-
-// @media (max-width: 900px){
-
-//   .site-nav-navlist{
-//     @include font(16px , 24px , 500);
-//     margin-right: 0;
-
-//   }
-// }
