@@ -191,6 +191,7 @@
 
 .main{
   width: 100%;
+  // Start WORKS
   .works{
     @include direction(column);
     width: 100%;
@@ -213,6 +214,13 @@
 
       @media (max-width:750px) {
         @include direction(column);
+      }
+
+      @media (max-width:500px) {
+        &:not(:nth-child(2)) {
+          display: none;
+          margin-top: 50px;
+        }
       }
 
       &__img{

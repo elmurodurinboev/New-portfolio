@@ -335,6 +335,12 @@ button {
     flex-direction: column;
   }
 }
+@media (max-width: 500px) {
+  .main .works-item:not(:nth-child(2)) {
+    display: none;
+    margin-top: 50px;
+  }
+}
 .main .works-item__img {
   padding: 0;
   margin-top: 10px;
