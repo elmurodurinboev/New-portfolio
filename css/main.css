@@ -30,6 +30,10 @@ button {
   border: none;
 }
 
+.active {
+  color: #FF6464;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100vh;
@@ -46,6 +50,24 @@ button {
   .header .site-nav {
     margin-bottom: 50px;
   }
+}
+.header .site-nav-menu {
+  display: none;
+}
+@media (max-width: 400px) {
+  .header .site-nav-menu {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+  }
+}
+.header .site-nav-menu__link {
+  width: 100%;
+  text-align: end;
+}
+.header .site-nav-menu__link-icon {
+  width: 30px;
+  height: 18px;
 }
 .header .site-nav-navlist {
   display: flex;
@@ -66,6 +88,11 @@ button {
 }
 .header .site-nav-navlist-item:not(:last-child) {
   margin-right: 30px;
+}
+@media (max-width: 400px) {
+  .header .site-nav-navlist {
+    display: none;
+  }
 }
 .header-des {
   display: flex;
@@ -429,4 +456,75 @@ button {
   line-height: 24px;
   font-weight: 400;
   font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding: 50px 0;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 30px;
+}
+.footer-icon__item-icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-text {
+  text-align: center;
+}
+.footer-text__item {
+  font-size: 14px;
+  line-height: 20.56px;
+  font-weight: 400;
+}
+
+.blog-title {
+  font-size: 44px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1200pxpx) {
+  .blog-title {
+    font-size: calc(
+                30px + 14 *
+                    ((100vw - 320px) / 880px)
+            );
+  }
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+}
+.blog-card__item {
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0 29px 0;
+}
+.blog-card__item:not(:first-child) {
+  margin-top: 30px;
+}
+.blog-card__item-title {
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 30px;
+}
+@media (max-width: 1200pxpx) {
+  .blog-card__item-title {
+    font-size: calc(
+                26px + 4 *
+                    ((100vw - 320px) / 880px)
+            );
+  }
+}
+.blog-card__item-express {
+  color: #8695A4;
 }/*# sourceMappingURL=main.css.map */
