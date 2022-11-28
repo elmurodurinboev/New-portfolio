@@ -234,13 +234,10 @@
       @media (max-width:750px) {
         @include direction(column);
       }
-
-      @media (max-width:500px) {
-        &:not(:nth-child(2)) {
-          display: none;
-          margin-top: 50px;
-        }
+      &__link{
+        width: 100%;
       }
+
 
       &__img{
         padding: 0;
@@ -310,6 +307,11 @@
 
   }
 
+  &-work-title{
+    @include adaptive-value('font-size', 44, 30);
+    @include font(60px , 700);
+  }
+
 }
 
 // Start FOOTER
@@ -371,8 +373,9 @@
 
 // START WORKS HTML==========================================
 
-.works-item-last-child{
-  display: none;
+.works-item:last-of-type{
+  // display: none;
+  
 }
 
 
@@ -413,7 +416,7 @@
       margin-bottom: 50px;
     }
     @media (max-width:700px) {
-      width: 339px;
+      width: 100%;
     }
   }
 
