@@ -41,6 +41,10 @@ button {
   flex-direction: column;
 }
 
+.active {
+  color: #FF6464;
+}
+
 .header .site-nav {
   max-width: 90%;
   margin: 0 auto;
@@ -603,4 +607,4 @@ button {
                     ((100vw - 320px) / 880)
             );
   }
-}/*# sourceMappingURL=main.css.map */
+}
